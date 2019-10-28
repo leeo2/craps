@@ -30,7 +30,6 @@ def playGame():
             if bet > start_total:
                 print("Invalid bet")
             else:
-
                 roll = rollDice()
 
                 while bet <= 0:
