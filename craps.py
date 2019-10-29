@@ -49,7 +49,7 @@ def playGame():
                     print(f"roll 2 = {roll2}")
                     while roll2 != roll and roll2 != 7:
                         roll2 = rollDice()
-                        print(f"roll 2 = {roll2}")
+                        print(f"Next roll = {roll2}")
                     if roll2 == roll:
                         print("You win!")
                         start_total = start_total + bet
